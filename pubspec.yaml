@@ -1,0 +1,25 @@
+name: flutter_application_1
+description: A new Flutter project with a quiz app and video tutorial.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.9.1
+  audioplayers: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/videos/game_explanation.mp4.mp4
+    - assets/images/logo.jpg
+    - assets/sounds/clap.mp3
+    - assets/sounds/error.mp3
