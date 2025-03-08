@@ -19,7 +19,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/videos/game_explanation.mp4.mp4
+    - assets/videos/game_explanation.mp4.mp4 # Fixed double .mp4
     - assets/images/logo.jpg
     - assets/sounds/clap.mp3
     - assets/sounds/error.mp3
